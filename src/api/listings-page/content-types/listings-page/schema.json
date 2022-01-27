@@ -1,0 +1,37 @@
+{
+  "kind": "singleType",
+  "collectionName": "listings_pages",
+  "info": {
+    "singularName": "listings-page",
+    "pluralName": "listings-pages",
+    "displayName": "Listings page",
+    "description": ""
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "listings": {
+      "type": "relation",
+      "relation": "oneToMany",
+      "target": "api::listing.listing"
+    },
+    "title": {
+      "type": "string"
+    },
+    "description": {
+      "type": "text"
+    },
+    "seo": {
+      "type": "component",
+      "repeatable": false,
+      "component": "shared.seo"
+    },
+    "hero": {
+      "type": "component",
+      "repeatable": false,
+      "component": "global.hero"
+    }
+  }
+}

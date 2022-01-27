@@ -1,0 +1,37 @@
+{
+  "kind": "singleType",
+  "collectionName": "submit_pages",
+  "info": {
+    "singularName": "submit-page",
+    "pluralName": "submit-pages",
+    "displayName": "Submit page",
+    "description": ""
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "title": {
+      "type": "string"
+    },
+    "description": {
+      "type": "text"
+    },
+    "hero": {
+      "type": "component",
+      "repeatable": false,
+      "component": "global.hero"
+    },
+    "seo": {
+      "type": "component",
+      "repeatable": false,
+      "component": "shared.seo"
+    },
+    "form": {
+      "type": "component",
+      "repeatable": false,
+      "component": "global.form"
+    }
+  }
+}

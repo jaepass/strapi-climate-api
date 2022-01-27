@@ -1,0 +1,16 @@
+{
+  "collectionName": "components_global_forms",
+  "info": {
+    "displayName": "form",
+    "icon": "remove-format"
+  },
+  "options": {},
+  "attributes": {
+    "inputs": {
+      "displayName": "inputs",
+      "type": "component",
+      "repeatable": true,
+      "component": "shared.inputs"
+    }
+  }
+}

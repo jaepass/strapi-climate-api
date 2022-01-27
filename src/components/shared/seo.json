@@ -1,0 +1,22 @@
+{
+  "collectionName": "components_shared_seos",
+  "info": {
+    "displayName": "seo",
+    "icon": "search-dollar",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "metaTitle": {
+      "type": "string"
+    },
+    "metaDescription": {
+      "type": "text"
+    },
+    "shareImage": {
+      "type": "component",
+      "repeatable": false,
+      "component": "shared.image"
+    }
+  }
+}

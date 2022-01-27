@@ -1,0 +1,17 @@
+{
+  "collectionName": "components_shared_contents",
+  "info": {
+    "displayName": "content",
+    "icon": "file-word",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "heading": {
+      "type": "string"
+    },
+    "subheading": {
+      "type": "string"
+    }
+  }
+}

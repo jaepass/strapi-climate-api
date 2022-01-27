@@ -1,0 +1,24 @@
+{
+  "collectionName": "components_global_list_containers",
+  "info": {
+    "displayName": "List container",
+    "icon": "th-list"
+  },
+  "options": {},
+  "attributes": {
+    "title": {
+      "type": "string"
+    },
+    "subtitle": {
+      "type": "string"
+    },
+    "layout": {
+      "type": "enumeration",
+      "enum": [
+        "grid",
+        "list",
+        "slider"
+      ]
+    }
+  }
+}

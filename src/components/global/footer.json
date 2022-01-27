@@ -1,0 +1,22 @@
+{
+  "collectionName": "components_global_footers",
+  "info": {
+    "displayName": "footer",
+    "icon": "window-minimize",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "footerLinks": {
+      "displayName": "links",
+      "type": "component",
+      "repeatable": true,
+      "component": "shared.links"
+    },
+    "footerTitle": {
+      "type": "component",
+      "repeatable": false,
+      "component": "shared.links"
+    }
+  }
+}

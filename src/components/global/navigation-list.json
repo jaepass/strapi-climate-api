@@ -1,0 +1,16 @@
+{
+  "collectionName": "components_global_navigation_lists",
+  "info": {
+    "displayName": "navigation",
+    "icon": "list",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "navigationLinks": {
+      "type": "component",
+      "repeatable": true,
+      "component": "shared.links"
+    }
+  }
+}

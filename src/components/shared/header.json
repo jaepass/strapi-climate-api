@@ -1,0 +1,16 @@
+{
+  "collectionName": "components_shared_headers",
+  "info": {
+    "displayName": "header",
+    "icon": "horse-head"
+  },
+  "options": {},
+  "attributes": {
+    "title": {
+      "type": "string"
+    },
+    "subtitle": {
+      "type": "text"
+    }
+  }
+}

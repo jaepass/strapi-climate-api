@@ -1,0 +1,31 @@
+{
+  "collectionName": "components_global_heroes",
+  "info": {
+    "displayName": "hero",
+    "icon": "file-image",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "image": {
+      "type": "component",
+      "repeatable": false,
+      "component": "shared.image"
+    },
+    "text": {
+      "type": "component",
+      "repeatable": false,
+      "component": "global.text"
+    },
+    "header": {
+      "type": "component",
+      "repeatable": false,
+      "component": "shared.header"
+    },
+    "ctas": {
+      "type": "component",
+      "repeatable": true,
+      "component": "shared.links"
+    }
+  }
+}

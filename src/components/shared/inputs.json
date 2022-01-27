@@ -1,0 +1,17 @@
+{
+  "collectionName": "components_shared_inputs",
+  "info": {
+    "displayName": "input",
+    "icon": "grip-lines",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "label": {
+      "type": "string"
+    },
+    "placeholder": {
+      "type": "string"
+    }
+  }
+}
