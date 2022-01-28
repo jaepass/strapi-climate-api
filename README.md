@@ -44,15 +44,15 @@ Next.js is an open-source development framework built on top of React enabling R
 # ⚡ Spin Up
 
 ### Strapi (Back End)
-`yarn develop` in the at the root of the [Strapi backend project](https://github.com/jaepass/strapi-climate-api) folder to start the studio locally
+`yarn develop` in the at the root of this [Strapi backend project](https://github.com/jaepass/strapi-climate-api) folder to start the admin dashboard locally
    - Your Strapi admin dashboard should be running on [http://localhost:1337](http://localhost:1337)
 
 Once you have added data in the collection types and single types, you would need to:
 - Save and publish the content
-- Go under Settings > Roles > Public to select all the necessary **find** and **findOne** actions in the single and collection types. You will also need to select the **create** action for the **listing** collection type for the form submission to work
+- Go under Settings > Roles > Public to select all the necessary **find** and **findOne** actions in the single and collection types. You will also need to select the **create** action for the **listing** collection type for the form submission to work.
 
 ### Next (Front End)
-`yarn dev` in the front-end project root to start the front end locally
+`yarn dev` in the [Next.js front-end project](https://github.com/jaepass/strapi-nextjs-climate) root to start the front end locally
    - Your front end should be running on [http://localhost:3000](http://localhost:3000)
 
 You should be able to see all the pages populated if you've created all the necessary collection and single types content.
@@ -61,11 +61,11 @@ You should be able to see all the pages populated if you've created all the nece
 
 # 🚀 Deployment
 
-### Vercel
-The frontend can be deployed easily to Vercel. Simply follow the [deployment documentation](https://nextjs.org/docs/deployment) to setup your new project to deploy. Be sure to **add the same `.env.example` variables to your Vercel Project**.
-
 ### Strapi
 You will need the [Strapi backend project](https://github.com/jaepass/strapi-climate-api) to deploy the backend API to production. Follow the [steps here](https://strapi.io/documentation/v3.x/admin-panel/deploy.html#deployment). The production backend was deployed to Heroku using PostgreSQL for the database. [More details here](https://docs.strapi.io/developer-docs/latest/setup-deployment-guides/deployment/hosting-guides/heroku.html#heroku) on how to deploy to production using Heroku.
+
+### Vercel
+The [Next.js front-end](https://github.com/jaepass/strapi-nextjs-climate) is easily set up to be deploye to Vercel. Simply follow the [deployment documentation](https://nextjs.org/docs/deployment) to setup your new project to deploy. Be sure to **add the same `.env.example` variables to your Vercel Project**.
 
 ## 📚 Learn more
 
