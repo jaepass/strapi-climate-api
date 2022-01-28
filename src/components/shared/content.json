@@ -12,6 +12,11 @@
     },
     "subheading": {
       "type": "string"
+    },
+    "text": {
+      "type": "component",
+      "repeatable": false,
+      "component": "global.text"
     }
   }
 }
