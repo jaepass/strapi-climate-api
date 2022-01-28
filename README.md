@@ -12,18 +12,18 @@
 </p>
 
 <p align="center">
-  <img src="https://i.ibb.co/Z2fCg2h/357e3536-2afc-437c-b025-4ae3db80725e.png" align="center" height="400" />
+  <img src="https://i.ibb.co/Z2fCg2h/357e3536-2afc-437c-b025-4ae3db80725e.png" align="center" />
 </p>
 
 <br />
 
-## What is Next.js?
-
-Next.js is an open-source development framework built on top of React enabling React based web applications functionalities such as server-side rendering and generating static websites.
-
 ## What is Strapi?
 
 Strapi is an open-source headless CMS used for building fast and easily manageable APIs written in JavaScript. It enables developers to make flexible API structures easily using a beautiful user interface.
+
+## What is Next.js?
+
+Next.js is an open-source development framework built on top of React enabling React based web applications functionalities such as server-side rendering and generating static websites.
 
 # ✨ Features
 
@@ -43,7 +43,7 @@ Strapi is an open-source headless CMS used for building fast and easily manageab
 
 # ⚡ Spin Up
 
-### Sanity (Back End)
+### Strapi (Back End)
 `yarn develop` in the at the root of the [Strapi backend project](https://github.com/jaepass/strapi-climate-api) folder to start the studio locally
    - Your Strapi admin dashboard should be running on [http://localhost:1337](http://localhost:1337)
 
